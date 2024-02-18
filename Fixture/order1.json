@@ -1,0 +1,136 @@
+{
+  "status": true,
+  "error_messages": [],
+  "success_messages": [],
+  "notice_messages": [],
+  "data": {
+    "matched_orders": [],
+    "status": "awaiting",
+    "order_num": "GP-Automate-Order-1",
+    "store_order_id": null,
+    "next_state": "scanpack.rfp.default",
+    "order": [
+      {
+        "id": 1,
+        "ordernum": "1",
+        "itemslength": 1,
+        "order_info": {
+          "id": 1,
+          "store_name": "GroovePacker",
+          "notes": null,
+          "ordernum": "1",
+          "order_date": "2022-11-01T11:28:33.000-04:00",
+          "itemslength": 1,
+          "status": "awaiting",
+          "tracking_num": null,
+          "custom_field_one": null,
+          "custom_field_two": null,
+          "tags": []
+        },
+        "scan_hash": {
+          "data": {
+            "order": {
+              "id": 25,
+              "increment_id": "GP-Automate-Order-1",
+              "order_placed_time": "2022-11-01T11:28:33.000-04:00",
+              "created_at": "2022-11-01T11:28:33.000-04:00",
+              "updated_at": "2022-11-02T06:49:48.000-04:00",
+              "customer_comments": null,
+              "notes_internal": null,
+              "notes_toPacker": null,
+              "notes_fromPacker": null,
+              "status": "awaiting",
+              "tracking_num": null,
+              "packing_user_id": 19,
+              "notes_from_buyer": null,
+              "note_confirmation": false,
+              "custom_field_one": null,
+              "custom_field_two": null,
+              "tags": null,
+              "unscanned_items": [
+                {
+                  "name": "Item X",
+                  "instruction": null,
+                  "confirmation": null,
+                  "images": [
+                    {
+                      "id": 4,
+                      "product_id": 4,
+                      "image": "http://media0.giphy.com/media/7MZ0v9KynmiSA/giphy.gif",
+                      "created_at": "2022-10-28T09:37:14.000-04:00",
+                      "updated_at": "2022-10-28T21:01:13.000-04:00"
+                    }
+                  ],
+                  "sku": "X",
+                  "packing_placement": 50,
+                  "barcodes": [
+                    {
+                      "id": 5,
+                      "product_id": 4,
+                      "barcode": "x",
+                      "created_at": "2022-10-28T09:37:14.000-04:00",
+                      "updated_at": "2022-10-28T09:37:14.000-04:00",
+                      "packing_count": 1,
+                      "is_multipack_barcode": true
+                    },
+                    {
+                      "id": 6,
+                      "product_id": 4,
+                      "barcode": "xx",
+                      "created_at": "2022-10-28T09:37:14.000-04:00",
+                      "updated_at": "2022-10-28T09:37:14.000-04:00",
+                      "packing_count": 1,
+                      "is_multipack_barcode": true
+                    },
+                    {
+                      "id": 7,
+                      "product_id": 4,
+                      "barcode": "R.S-MASTER",
+                      "created_at": "2022-10-28T09:37:14.000-04:00",
+                      "updated_at": "2022-10-28T09:37:14.000-04:00",
+                      "packing_count": 1,
+                      "is_multipack_barcode": true
+                    }
+                  ],
+                  "product_id": 4,
+                  "location": "111",
+                  "location2": "",
+                  "location3": "",
+                  "skippable": false,
+                  "record_serial": false,
+                  "second_record_serial": false,
+                  "click_scan_enabled": "on_with_confirmation",
+                  "type_scan_enabled": "on",
+                  "order_item_id": 56,
+                  "custom_product_1": "",
+                  "custom_product_2": "",
+                  "custom_product_3": "",
+                  "custom_product_display_1": false,
+                  "custom_product_display_2": false,
+                  "custom_product_display_3": false,
+                  "partially_scanned": false,
+                  "updated_at": "2022-11-01T11:30:16.000-04:00",
+                  "product_type": "single",
+                  "qty_remaining": 1,
+                  "total_qty": 1,
+                  "scanned_qty": 0,
+                  "child_items": []
+                }
+              ],
+              "scanned_items": [],
+              "multi_shipments": {},
+              "activities": []
+            }
+          }
+        },
+        "shipment_id": null,
+        "store_type": "system",
+        "store_id": 1,
+        "order_cup_direct_shipping": false
+      }
+    ]
+  },
+  "matched": true,
+  "do_on_demand_import": false,
+  "awaiting": 16
+}
